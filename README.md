@@ -18,4 +18,4 @@ npm init
 
 ### Establishing connections
 
-* Connected mysql to nodejs, here is the [doccumentation](https://github.com/mysqljs/mysql).
+* Connected mysql to Node.js, here is the [doccumentation](https://github.com/mysqljs/mysql).
