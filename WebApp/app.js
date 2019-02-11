@@ -7,6 +7,8 @@ var app = express();
 app.set("view engine", "ejs");
 // extract info from post request
 app.use(bodyParser.urlencoded({extended: true}));
+//take the contents in publiv dir
+app.use(express.static(__dirname + "/public"));
 
 var connection = mysql.createConnection({
     host : 'localhost',
